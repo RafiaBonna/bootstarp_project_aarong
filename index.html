@@ -6,8 +6,66 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+     .hero-section {
+      background-image: url(background_image_1.webp); /* Example image */
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+    }
+    .navbar-custom {
+      background: rgba(255, 255, 255, 0.8); /* Slight white background with transparency */
+      padding: 1rem 2rem;
+    }
+    .nav-link, .nav-icons i {
+      color: #000 !important;
+      font-weight: 500;
+    }
+    .nav-icons i {
+      font-size: 1.2rem;
+      margin-left: 1rem;
+    }
+    .brand-links a {
+      margin-right: 1.2rem;
+      font-weight: 600;
+      color: #000;
+      text-decoration: none;
+    }
+</style>
 </head>
 <body>
+    <!-- Hero Section with Background -->
+<div class="hero-section">
+        <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-custom shadow-sm">
+        <div class="container-fluid">
+          <!-- Left side: brand links -->
+          <div class="d-flex align-items-center brand-links">
+            <a href="#"><img src="logo-white-01.webp" alt="Aarong" height="30"></a>
+            <a href="#" class="nav-link px-2">TAAGA MAN</a>
+            <a href="#" class="nav-link px-2">HERSTORY</a>
+          </div>
+          <!-- Right side: menu & icons -->
+    <div class="d-flex align-items-center ms-auto">
+        <a href="#" class="nav-link"><i class="fas fa-map-marker-alt"></i> BGD</a>
+        <a href="#" class="nav-link">Find a Store</a>
+        <a href="#" class="nav-link">Customer Service</a>
+        <a href="#" class="nav-link">Club Taaga</a>
+        <a href="#" class="nav-link">My Aarong Rewards</a>
+        <!-- Icons -->
+      <div class="nav-icons d-flex align-items-center ms-3">
+        <a href="#"><i class="bi bi-search"></i></a>
+        <a href="#"><i class="bi bi-person"></i></a>
+        <a href="#"><i class="bi bi-heart"></i></a>
+        <a href="#"><i class="bi bi-bag"></i></a>
+      </div>
+    </div>
+  </div>
+</nav>
     
 </body>
 </html>
